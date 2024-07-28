@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(21, 165, 108);
+}
+.container-main {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.content {
+    background-color: rgb(172, 253, 164);
+    padding: 30px;
+    order: 2;
+    
+}
+.navigasi-kiri {
+    background-color:#64dca0;
+    padding: 30px;
+    width: 100px;
+    order: 1;
+}
+.navigasi-kanan {
+    background-color: #64dca0;
+    padding: 30px;
+    width: 100px;
+    order: 3;
+}
+.container-card {
+    width: 900px;
+    margin: 30px auto;
+    display: flex;
+    justify-content:space-between ;
+}
+.card {
+    background-color: rgb(85, 123, 85);
+    padding: 10px;
+    box-sizing: border-box;
+    width: 32%;
+}
+.card .card-header img {
+    width:100% ;
+}
